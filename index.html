@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador Alura</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/Logo.svg" alt="logo alura">
+    </header>
+
+
+<main class="container">
+
+  <section class="section1">
+    <textarea id="textoOriginal" placeholder="Aquí va el texto"></textarea>
+
+    <div class="cajonTotal">
+      <div class="comentarioInfo">
+        <img src="img/admiracion.svg">
+        <p>Solo letras minúsculas y sin acentos</p>
+      </div>
+      <div class="btonesBloque">
+        <button onclick="reemplazarLetras(); ocultarImagen(); " id="encriptador">Encriptar</button>
+        <button onclick="traducir()" id="decodificador">Desencriptar</button>
+        <button onclick="copiarTexto()" id="copiador" >Copiar</button>
+      </div>
+    </div>
+
+  </section>
+  
+  <section class="section2">
+    <textarea id="textoResultado"  class="texto-resultado"> </textarea>
+    <div class="textoResultadoImg"><img id="imagMuneo" src="img/Muneco.png"></div> 
+  </section>
+</main>
+
+
+
+<script src="js/codigo.js"></script>
+    
+</body>
+</html>

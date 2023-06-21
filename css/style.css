@@ -1,0 +1,189 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color:#F3F5FC;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .section1 {
+    width: 60%;
+    padding: 20px;
+    
+  }
+  
+  .section2 {
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+    height: 650px;
+    left: 60%;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    position: absolute;
+  }
+
+  .div1, .div2, .div3 {
+    margin: 10px;
+    padding: 10px;
+    
+  }
+  
+#textoOriginal{
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  background:  #F3F5FC;
+  border: none;
+  width: 45%;
+  height: 650px;
+  position: absolute;
+}
+#textoOriginal::placeholder{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  
+}
+
+#textoResultado{
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  padding: 30px;
+  font-size: 25px;
+  border: none;
+  /*z-index: 0;*/
+}
+
+
+
+.textoResultadoImg{
+  position: relative;
+  z-index: 50;
+  margin-top: 400px;
+  margin-left: 180px;
+  
+}
+.textoComentario{
+  align-items: center;
+  position: relative;
+  z-index: 50;
+}
+
+.comentarioInfo{
+  align-items: center;
+  display: flex;
+  z-index: 50;
+}
+
+.comentarioInfo p{
+  margin-left: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+}
+
+
+.textoComentario h3{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #343A40;
+
+}
+.textoComentario p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #495057;
+}
+
+  /* btones */
+
+.cajonTotal{
+  margin-top: 640px ;
+  position: absolute;
+  margin-bottom: 20px;
+}
+
+
+  .btonesBloque{
+  display: flex;
+  position: absolute;
+}
+
+#encriptador, #decodificador, #copiador{
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+  #encriptador{
+    color: white;
+    background:#0A3871;
+  }
+  #decodificador{
+    color: #0A3871;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    margin-left: 5px;
+  }
+  #copiador{
+    background-color: white;
+    color: #000;
+    border: 1px solid #0A3871 ;
+    position: relative;
+    z-index: 50;
+    margin-left: 10px;
+  }
+
+#imagMuneo{
+    display: block;
+}
+.imagMuneo{
+
+}
